@@ -1,0 +1,189 @@
+body{
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+
+}
+.card-div{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+
+}
+.cardss{
+    position: relative;
+    border-radius: 15px;
+    left: 200px;
+    height: 200px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);  /* This will produce the blur */
+    background-color: #f876de;
+    background-image: linear-gradient(315deg, #f876de 0%, #ee3b62 94%);
+    z-index: 2;
+    text-align: center;
+    
+}
+.cardss:hover{
+  transform: translateY(0px);
+  box-shadow: inset 0 0 60px whitesmoke,
+              inset 20px 0 80px #f0f,
+              inset -20px 0 80px #0ff,
+              inset 20px 0 300px #f0f,
+              inset -20px 0 300px #0ff,
+              0 0 50px #fff,
+              -10px 0 80px #f0f,
+              10px 0 80px #0ff;            
+}
+.card-div h2{
+    position: relative;
+    top:20px;
+    color: white;
+    font-weight: bolder;
+    
+}
+.card-div h4{
+    position: relative;
+    top: 136px;
+    left: 59px;
+
+}
+.card-div h3{
+    
+    color: white;
+    
+
+}
+.card-div h3 span{
+    position: relative;
+    left: 2px;
+    color: white;
+    font-size: 2rem;
+}
+.card-div h3 .btc{
+    position: relative;
+    left: 2px;
+    font-size: 1.3rem;
+}
+
+.form {
+   position: relative;
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 500px;
+    padding: 20px;
+    width: 400px;
+    left: 202px;
+  }
+  
+  .title {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .subtitle {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ic1 {
+    margin-top: 40px;
+  }
+  
+  .ic2 {
+    margin-top: 30px;
+  }
+  
+  .input {
+    background-color:#303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+  }
+  
+  .cut {
+    background-color:#15172b;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 206px;
+  }
+  
+  .cut-short {
+    width: 150px;
+  }
+  
+  .input:focus ~ .cut,
+  .input:not(:placeholder-shown) ~ .cut {
+    transform: translateY(8px);
+  }
+  
+  .placeholder {
+    color: #65657b;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+  }
+  
+  .input:focus ~ .placeholder,
+  .input:not(:placeholder-shown) ~ .placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+  }
+  
+  .input:not(:placeholder-shown) ~ .placeholder {
+    color: #808097;
+  }
+  
+  .input:focus ~ .placeholder {
+    color: #dc2f55;
+  }
+  
+  .submit {
+    background-color: #ee3b62;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    /* // outline: 0; */
+    text-align: center;
+    width: 100%;
+  }
+  
+  .submit:active {
+    background-color: #dc2f55;
+  }
+  

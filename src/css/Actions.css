@@ -1,0 +1,23 @@
+.actions{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    font-size: 10px;
+}
+.actionCard{
+    padding: 10px;
+    text-align: center;
+
+}
+.actionCard img{
+    width: 40%;
+}
+
+.actionCard h1{
+    color: rgb(26, 25, 102);
+}

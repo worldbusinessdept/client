@@ -1,0 +1,55 @@
+.billMain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.billingDetails{
+
+    width: 50%;
+    margin: 10px;
+}
+.billingDetails form{
+    margin-top: 10px;
+}
+.checkout{
+    padding: 10px;
+    width: 100%;
+}
+.checkout h2{
+    font-weight: 100;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.checkout h2 p{
+    color: #DF2D07;
+    padding-right: 10px;
+    font-weight: 500;
+}
+.checkoutBox{
+    background-color: #131313;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 50px;
+    font-size: 13px;
+    padding: 20px;
+    text-align: right;
+    height: fit-content;
+}
+.checkout button{
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 990px) {
+    .billMain{
+       display: block;
+    }
+    .billingDetails{
+        width: 100%;
+    }
+    .checkoutBox{
+        width: 100%;
+    }
+  }

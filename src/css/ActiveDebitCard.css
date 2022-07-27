@@ -1,0 +1,33 @@
+.activeDebitCard{
+    /* background-color: black; */
+    color: white;
+    /* height: 100vh; */
+   
+    font-size: 20px;
+    padding: 10px;
+}
+.activeDebitCard h1{
+    
+    border-bottom: solid;
+    border: 0 0 2px 0;
+    border-color: #DF2D07;
+    width: fit-content;
+}
+.moneyBack{
+    width: 100%;
+    text-align: center;
+
+}
+.moneyBack img{
+    width: 11%;
+}
+.secureImageActiveDebitCard img{
+    width: 50%;
+}
+
+@media only screen and (max-width: 650px){
+
+    .secureImageActiveDebitCard img{
+        width: 100%;
+    }
+}

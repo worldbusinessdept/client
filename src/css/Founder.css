@@ -1,0 +1,24 @@
+.founder{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    padding-top: 60px;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.founderImage{
+    width: 800px;
+    height: 500px;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+
+.founderName{
+    font-size: 20px;
+}
+.founderImage img{
+    width: 100%;
+}

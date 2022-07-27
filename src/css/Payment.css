@@ -1,0 +1,176 @@
+.payment {
+  /* background-color: #202427; */
+  /* height: 100vh; */
+  padding: 40px 100px 60px 100px;
+  color: white;
+  /* background: url(https://ak.picdn.net/shutterstock/videos/1035388403/thumb/2.jpg?ip=x480); */
+}
+.payment form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 100px;
+  color: white;
+  /* background-color: #131313; */
+  padding: 10px;
+  border-radius: 10px;
+}
+.payment form label {
+  color: orange;
+  width: 80%;
+  text-align: left;
+  margin-bottom: 0;
+}
+.payment h1 {
+  border-bottom: 4px solid #df2d07;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.payment h2 {
+  text-align: center;
+  border-bottom: 2px solid #df2d07;
+}
+.payment form input {
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid white;
+  margin: 15px;
+  padding: 8px 0 8px 0;
+  /* background-color: #081D34; */
+  background: transparent;
+  color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.payment form textarea {
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid white;
+  margin: 15px;
+  padding: 8px 0 8px 0;
+  /* background-color: #081D34; */
+  background: transparent;
+  color: white;
+  resize: vertical;
+}
+.payment form p {
+  width: 50%;
+  text-align: center;
+}
+.payment form input:focus {
+  outline-width: 0;
+}
+.payment form textarea:focus {
+  outline-width: 0;
+}
+
+.payment button {
+  width: 80%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #df2d07;
+  color: white;
+  border: 1px solid #df2d07;
+  transition: all 0.4s ease;
+  margin-top: 20px;
+}
+
+.customButton {
+  width: 40%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #df2d07;
+  color: white;
+  border: 1px solid #df2d07;
+  transition: all 0.4s ease;
+  margin-top: 20px;
+}
+.customButtonOrange {
+  width: fit-content;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #0475a5;
+  color: white;
+  border: 1px solid #0475a5;
+  transition: all 0.4s ease;
+  margin-top: 20px;
+}
+.payment .backButton i {
+  color: #df2d07;
+  font-size: 50px;
+}
+
+.payment button:hover {
+  background-color: black;
+  color: #df2d07;
+}
+.customButton:hover {
+  background-color: black;
+  color: #df2d07;
+}
+.customButtonOrange:hover {
+  background-color: black;
+  color: orange;
+}
+.payment img {
+  width: 20%;
+  text-align: center;
+  border-radius: 10px;
+}
+.debitCardDetails {
+  display: flex;
+  width: 82%;
+}
+
+#logo{
+  width: 20%;
+}
+@media only screen and (max-width: 990px) {
+  .debitCardDetails {
+    display: block;
+  }
+  .payment {
+    padding: 40px 20px 60px 20px;
+  }
+  .payment form {
+    margin-top: 40px;
+  }
+}
+
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #df2d07;
+  font-size: 12px;
+  border: 1px solid #df2d07;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+.swal-footer {
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 560px){
+
+  #logo{
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 800px){
+
+  .withdrawalCardImage img{
+      width: 60%;
+  }
+}

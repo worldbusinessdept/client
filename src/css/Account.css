@@ -1,0 +1,31 @@
+.account a{
+    padding: 0%;
+    width: fit-content;
+
+}
+.account{
+
+    text-align: center;
+    display: block;
+    position: relative;
+   
+}
+.account .options a{
+    margin: 50px;
+
+}
+.account .options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.options img{
+    width: 50%;
+}
+@media only screen and (max-width: 650px){
+
+    .account img{
+        width: 100%;
+    }
+}

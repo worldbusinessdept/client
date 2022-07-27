@@ -1,0 +1,54 @@
+.activeCards{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.activeCards img {
+    width: 29%;
+}
+.activeCards h2{
+    font-weight: 400;
+    color: #DF2D07;
+}
+.activeCards h3{
+    font-weight: 100;
+}
+.activeCards h4{
+    font-weight: 100;
+}
+.activeCards i{
+    color: #DF2D07;
+}
+
+.activeCardsIcons{
+    width: fit-content;
+    text-align: left;
+}
+.activeCards button{
+    width: 20%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #DF2D07;
+    color: white;
+    border: 1px solid #DF2D07;
+    transition: all 0.4s ease;
+    margin-top: 20px;
+    width: fit-content;
+}
+.activeCards button:hover{
+    background-color: black;
+    color: #DF2D07;
+ 
+}
+
+
+
+@media only screen and (max-width: 650px){
+    .activeCards img {
+        width: 60%;
+    }
+}

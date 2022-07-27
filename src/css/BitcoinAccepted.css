@@ -1,0 +1,26 @@
+.bitcoinAccepted form button{
+    width: max-content;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 650px){
+    .bitcoinAccepted img{
+
+        width: 60%;
+    }
+
+
+    .bitcoinAccepted form p{
+        /* text-align: center; */
+        width: 80%;
+    }
+
+    .bitcoinAccepted form button{
+        width: 80%;
+    }
+
+
+    #qr{
+        width: 60%;
+    }
+
+} 

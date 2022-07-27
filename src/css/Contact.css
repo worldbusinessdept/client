@@ -1,0 +1,19 @@
+.contact{
+    color: black;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/ca/db/f0/cadbf02093dd8e7b4c9e74107ba7b27a.jpg);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 190px;
+    padding-bottom: 190px;
+    font-size: xx-large;
+    line-height: 1.9;
+}
+.contact a{
+    color: blue;
+
+    font-size: 1ch;
+}

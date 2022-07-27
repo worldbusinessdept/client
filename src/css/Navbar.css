@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 10px;
+}
+
+.links p{
+    color: white;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+    cursor: pointer;
+    border-right: 4px solid #DF2D07 ;
+}
+
+
+.links{
+    display: flex;
+    z-index: 1000;
+}
+.navbarLogo img{
+    width: 20%;
+}

@@ -1,0 +1,44 @@
+.walletMain{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+.walletMain div{
+    margin: 20px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.myWallet{
+    text-align: center;
+    width: 20%;
+}
+.myWallet div{
+
+    border-radius: 5px;
+    border: 1px solid #DF2D07;
+    /* color:#DF2D07; */
+    cursor: pointer;
+}
+.myWallet div:hover{
+    background-color: #DF2D07;
+    transition: all 0.4s ease;
+        
+}
+.balance{
+    width: 80%;
+}
+@media only screen and (max-width: 990px){
+    .walletMain{
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .myWallet{
+        width: 100%;
+    }
+    .balance{
+        width: 100%;
+    }
+}

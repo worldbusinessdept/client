@@ -1,0 +1,28 @@
+.adminActivatesAllCards div{
+    display: flex;
+    color: orange;
+}
+.adminActivatesAllCards div p{
+    color: white;
+
+    margin-left: 5px;
+}
+.adminActivatesAllCards div a{
+    color: white;
+
+    margin-left: 5px;
+}
+.adminActivatesAllCards button{
+    width: 20%;
+    margin: 2px;
+    padding: 2px;
+    font-size: 16px;
+    border-radius: 2px;
+
+}
+.actionButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

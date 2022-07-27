@@ -1,0 +1,36 @@
+.featureIn{
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    
+    
+}
+.featureIn h1{
+    text-align: center !important;
+    margin-left: 25%;
+}
+
+.featuredHeading{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
+    font-weight: 400;
+    padding: 50px;
+}
+.featuredInMain{
+    background-color: #00060D;
+    width: 40%;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+
+    
+    /* padding-left: 50%; */
+}
+
+.sliderImage{
+    width: 80%;
+}

@@ -1,0 +1,64 @@
+.top h3{
+    font-weight: 100;
+}
+.subt{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border: 1px solid #DF2D07; */
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: #131313;
+}
+.heads th{
+
+   
+    border-bottom: 1px solid #DF2D07;
+    padding: 10px;
+    text-align: center;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subt td{
+    text-align: center;
+    padding: 10px;
+}
+
+.coupon{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.couponDiv{
+    width: 100%;
+}
+.coupon form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 2px;
+    border-radius: 10px;
+}
+.coupon form button{
+    font-size: 15px;
+    padding: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+    width: 20%;
+}
+.cartTotal{
+    background-color: #131313;
+    text-align: right;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cartTotal button{
+    width: 20%;
+}

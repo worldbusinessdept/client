@@ -1,0 +1,75 @@
+.adminNavbar{
+    background-color: black;
+    border: 1px solid #DF2D07;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.adminNavbar a{
+    background-color: #DF2D07;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #DF2D07;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+
+}
+
+.adminNavbar a:hover{
+    color: #DF2D07;
+    background-color: black;
+}
+.selectCard{
+    background-color: black;
+    width: fit-content;
+}
+.selectCard p{
+    padding: 5px;
+    border: 1px solid #DF2D07;
+    cursor: pointer;
+}
+
+.messageReview{
+    background-color: black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.messageReview h3{
+    text-align: center;
+}
+.messageReview button{
+    width: fit-content;
+    padding: 2px;
+    font-size: medium;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+.draft textarea{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: 15px;
+  
+    background-color: #131313;
+    color: white;
+}
+
+.draft textarea:focus{
+    outline-width: 0;
+}
+.draft button{
+    width: fit-content;
+    font-size: medium;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+

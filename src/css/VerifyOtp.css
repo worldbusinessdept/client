@@ -1,0 +1,15 @@
+.otp{
+    display: flex;
+}
+.otp input{
+    text-align: center;
+    font-size: larger;
+
+    width: max-content;
+}
+.otpDiv{
+    text-align: center;
+}
+.otpDiv form{
+    margin-top: 10px;
+}
