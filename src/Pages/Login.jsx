@@ -78,7 +78,7 @@ export default function Login({ checkLogin }) {
                     sx={{ mt: 3, mb: 2 }}
                 >Log In</Button>)
                 if (response.status === 200) {
-                    // swal("Logged In", "Successfully Authorised", "success");
+                    // swal("Logged In", "Successfully Authorized", "Success");
                     await localStorage.setItem("token", response.data.token);
                     await localStorage.setItem("data", JSON.stringify(response.data.user));
                     await localStorage.setItem("card", JSON.stringify(response.data.card));
