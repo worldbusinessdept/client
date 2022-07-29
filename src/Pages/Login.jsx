@@ -21,7 +21,7 @@ const theme = createTheme();
 const STATE_MACHINE_NAME = "State Machine 1";
 
 export default function Login({ checkLogin }) {
-
+    /* console.log(process.env) */
 
     let history = useHistory();
     let [loginButton, setLoginButton]=useState(<Button
@@ -59,7 +59,6 @@ export default function Login({ checkLogin }) {
             "email": user,
             "password": password
         };
-        // console.log(login)
         await axios.post(`${process.env.REACT_APP_SERVER}/login`, login)
             .then(async (response) => {
                 // console.log(response.data)
@@ -95,19 +94,6 @@ export default function Login({ checkLogin }) {
                 }
             });
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     const { rive, RiveComponent } = useRive({
         src: "520-990-teddy-login-screen.riv",
