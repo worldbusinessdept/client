@@ -49,6 +49,7 @@ export default function VerifyOtp() {
 
         axios.post(`${process.env.REACT_APP_SERVER}/signupstep2`, { tempUserId: sessionStorage.getItem("tempUserId"), otp: otp })
             .then((response) => {
+                
                 setVerifyButton('Verify')
                 if (response.status === 200) {
                     history.push("/signup/personalinformation");
