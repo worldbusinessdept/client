@@ -2,7 +2,7 @@ import React from "react";
 import "../css/Cart.css"
 
 import "../css/Payment.css"
-
+//cart
 export default function Cart() {
     return (
         <div className="cart, payment" >
