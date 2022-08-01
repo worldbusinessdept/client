@@ -4,7 +4,7 @@ import "../../css/Payment.css"
 import Request from "../../Assets/RequestSent.jpg"
 import { useHistory } from "react-router-dom";
 import ParticleAnimation from "../components/ParticleAnimation";
-// import { style } from "@mui/system";
+/*  import { style } from "@mui/system"; */
 
 export default function RequestSent(){
 
